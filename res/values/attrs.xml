@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="numerals">
+            <enum name="arabic" value="0" />
+            <enum name="roman" value="1" />
+        </attr>
+        
+        <attr name="faceColor" format="color|reference" />
+    </declare-styleable>
+</resources>
